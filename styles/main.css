@@ -1,3 +1,4 @@
+/* HOME PAGE */
 body{
   background-color: #fad4d921;
 }
@@ -108,7 +109,7 @@ h4, h3{
   border-radius: 1pc;
 }
 
-p{
+.hide1, .hide2{
   border-color: rgb(253, 253, 253);
   border-width: 1ic;
   border-style: solid;
@@ -118,3 +119,9 @@ p{
   right: 45%;
 
 }
+/* STORE PAGE */
+/*CART*/
+
+/*REGISTER*/
+/*LOGIN*/
+
