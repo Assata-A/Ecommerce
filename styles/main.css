@@ -121,6 +121,10 @@ h4, h3{
 
 }
 /* STORE PAGE */
+.card-title{
+  font-style:"Mongolian Baliti", Times, serif; 
+  color: #f16d99;
+}
 .figureheader{
   text-align: center;
   margin-top: 2%;
@@ -201,6 +205,11 @@ h4, h3{
   margin-bottom: 5%;
 }
 /*REGISTER*/
+.reghead{
+  font-family:"Mongolian Baliti", Times, serif;
+  font-weight: bold;
+  color: #f16d99;
+}
 form{
   border-style: solid;
   border-color: rgb(241, 234, 234);
@@ -249,6 +258,17 @@ input{
 
 }
 /*LOGIN*/
+.loginlogo{
+  position: relative;
+  left: 48pc;
+}
+.login-header{
+  position: relative;
+  bottom: 6pc;
+  font-weight: bold;
+  font-family: "Mongolian Baliti", Times, serif;
+  color: #f16d99;
+}
 .loginregister{
   position: relative;
   left:8pc;
