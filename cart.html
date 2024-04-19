@@ -42,40 +42,82 @@
 <div class="cartheader">
   <text class="carttext">Free shipping on orders $1000+</text>
   <h6> Become an Angel Member for free shipping on orders $1000+ 
-        <a href="register.html">Sign Up<a> or 
-        <a href="login.html">Log In</a>
+        <a class="cartregister" href="register.html">Sign Up<a> or 
+        <a class="cartregister" href="login.html">Log In</a>
     </h6>
 </div>
 <div class="container">
 <div class="row">
 <div class="col-8">
-<div class="card" style="width:700px;">
+<div class="card cartcard">
   <div class="cartproduct">
-    <img src="images/hirono6.jpg"width="150px">
+    <img class="cartimage" src="images/hirono6.jpg">
       <div class="carttitle"> Ghost Hirono </div>
        <div class="cartprice">50.99</div>
-         <div class="cartdescription">Little angle in ghost costume</div>
-           <input id="dropdown" for="quantity" placeholder="Quantity">
-          <select name="quantity" id="dropdown">
+         <div class="cartdescription">Little Angle in ghost costume</div>
+         <div class="dropdowncart">
+           <input type="dropdown" id="dropdown" for="quantity" placeholder="Quantity">
+             <select name="quantity" id="dropdown">
             <option value="1">1</option>
             <option value="1">2</option>
             <option value="1">3</option>
             <option value="1">4</option>
             <option value="1">5</option>
          </select>
+        </div>
           </div>
         </div>
        </div> 
-       <div class="col-2">
-        <div class="card" style="width:300px;">
+       <div class="col-8">
+        <div class="card cartcard">
+          <div class="cartproduct">
+            <img class="cartimage" src="images/warmth9.jpg">
+              <div class="carttitle"> SKULLPANDA Warmth Series </div>
+               <div class="cartprice">50.99</div>
+                 <div class="cartdescription">Little Angle with frogs</div>
+                 <div class="dropdowncart">
+                   <input type="dropdown" id="dropdown" for="quantity" placeholder="Quantity">
+                     <select name="quantity" id="dropdown">
+                    <option value="1">1</option>
+                    <option value="1">2</option>
+                    <option value="1">3</option>
+                    <option value="1">4</option>
+                    <option value="1">5</option>
+                 </select>
+                </div>
+                  </div>
+                </div>
+            </div> 
+               <div class="col-8">
+                <div class="card cartcard">
+                  <div class="cartproduct">
+                    <img class="cartimage" src="images/Hirono5.jpg">
+                      <div class="carttitle"> Party Hat Hirono </div>
+                       <div class="cartprice">50.99</div>
+                         <div class="cartdescription">Little Angle with party hat beak</div>
+                         <div class="dropdowncart">
+                           <input type="dropdown" id="dropdown" for="quantity" placeholder="Quantity">
+                             <select name="quantity" id="dropdown">
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+                            <option value="1">3</option>
+                            <option value="1">4</option>
+                            <option value="1">5</option>
+                         </select>
+                        </div>
+                          </div>
+                        </div>
+                       </div> 
+       <div class="col-4">
+        <div class="card cardcheckout">
         <div class="checkout">
-            <h1>CHECKOUT</h1>
-            <text class="checkout1">SUMMARY</text>
+            <h1 class="checkout0">CHECKOUT</h1>
+            <h6 class="checkout1">SUMMARY</h6>
             <br>
-            <text class="checkout2">Subtotal <h6>152.87</h6></text>
-            <text class="checkout3">Shipping and Handling <h6>8.00</h6></text>
-            <text class="checkout4">Tax<h6>5000.00</h6></text>
-            <text class="checkout5">Total<h6>5160.87</h6></text>
+            <div class="checkout2">Subtotal: <div class="subtotal">152.87</div></div>
+            <div class="checkout3">Shipping and Handling: <div class="shipandhandle">8.00</div></div>
+            <div class="checkout4">Tax: <div class="tax">5000.00</div></div>
+            <div class="checkout5">Total: <div class="checkouttotal">5160.87</div></div>
 
 
         </div>
@@ -84,21 +126,21 @@
 </div>
 
 
-<div class="container">
+<div class="container shipment">
 <div class="row">
 <h2 class="shiptitle">SHIPPING</h2>
-<div class="col-4">
+<div class="col-3">
      <div class="shipping">
          <label for="first-name"> First Name </label>
          <br>
-         <input id="first-name" type="text" required>
+         <input id="first-name" type="text" required style="padding-right:5pc;">
      </div>
 </div>
-<div class="col-4">
+<div class="col-3">
     <div class="shipping">
         <label for="last-name"> Last Name </label>
         <br>
-        <input id="last-name" type="text" required>
+        <input id="last-name" type="text" required style="padding-right:5pc;">
     </div>
 </div>
 </div>
@@ -107,26 +149,27 @@
     <div class="shipping">
         <label for="address"> Shipping Address </label>
         <br>
-        <input id="address" type="text" required>
+        <input id="address" type="text" required style="width: 37pc;">
     </div>
 </div>
 </div>
 <div class="row">
 
-    <div class="col-4">
+    <div class="col-3">
          <div class="shipping">
              <label for="phone-number"> Phone Number </label>
              <br>
-             <input id="phone-number" type="text">
+             <input id="phone-number" type="text" style="padding-right:5pc;">
          </div>
     </div>
-    <div class="col-4">
+    <div class="col-3">
         <div class="shipping">
             <label for="email"> Email </label>
             <br>
-            <input id="email" type="text" required>
+            <input id="email" type="text" required style="padding-right:5pc;">
         </div>
     </div>
+</div>
 </fieldset>
 
 

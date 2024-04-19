@@ -120,8 +120,80 @@ h4, h3{
 
 }
 /* STORE PAGE */
+.figureheader{
+  text-align: center;
+  margin-top: 2%;
+  font-family:"Mongolian Baliti", Times, serif;
+  font-weight: bold;
+  color: #f16d99;
+}
+.btn-primary{
+  background-color: #fae6ed;
+  font-weight: bold;
+  color: grey;
+  font-family:"Mongolian Baliti", Times, serif;
+}
 /*CART*/
-
+.cartheader{
+  margin-left: 13%;
+  margin-top: 3%;
+  border-style: solid;
+  border-width:0.2px;
+  width: 40%;
+  margin-bottom: 1%;
+}
+.carttext{
+  color: #f16d99;
+}
+.cartregister{
+  color: #cebfc4;
+  text-decoration: none;
+}
+.carttitle, .cartprice, .cartdescription{
+  position: relative;
+  bottom:190px;
+  left: 205px;
+}
+.carttitle{
+  color: #f16d99;
+  font-weight: bold;
+}
+.cartprice{
+  color: #a08890;
+}
+.cartimage{
+  width:200px;
+}
+.cartcard{
+  width: 700px;
+  height: 202px;
+}
+.dropdowncart {
+  position: relative;
+  bottom: 65%; 
+}
+.shiptitle{
+  font-family: "Mongolian Baliti", Times, serif;
+  font-weight: bold;
+  color: #f16d99;
+}
+.checkout0, .checkout1{
+  text-align: center;
+}
+.subtotal, .shipandhandle, .tax, .checkouttotal{
+  display: inline-flex;
+  margin-left: 14.5pc;
+  color: #f16d99;
+  font-weight: bold;
+}
+.cardcheckout{
+  width: 300px;
+  position: relative;
+  bottom: 25.5pc;
+}
+.shipment{
+  margin-bottom: 5%;
+}
 /*REGISTER*/
 /*LOGIN*/
 
