@@ -18,6 +18,7 @@ header{
 }
 #search{
   border-radius: 1pc;
+  width:15pc;
 
 }
 .headtwo{
@@ -169,8 +170,13 @@ h4, h3{
   height: 202px;
 }
 .dropdowncart {
+  width: 10pc;
   position: relative;
   bottom: 65%; 
+  left: 30pc
+}
+.shipaddress{
+  position: relative;
 }
 .shiptitle{
   font-family: "Mongolian Baliti", Times, serif;
@@ -195,5 +201,79 @@ h4, h3{
   margin-bottom: 5%;
 }
 /*REGISTER*/
+form{
+  border-style: solid;
+  border-color: rgb(241, 234, 234);
+  border-width: 1pc;
+  border-radius: 1pc;
+  background-color: #cebfc4;
+  width: 80vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  margin-bottom: 5%;
+}
+label{
+  display: block;
+  margin: 0.5rem 0;
+  margin-left:10% ;
+  color:#5f293a;
+  font-weight: bold;
+}
+input{
+  display: block;
+  margin: auto;
+  width: 80%;
+  min-height: 2em;
+}
+.registerheader, .login-header{
+  text-align: center;
+  margin-bottom: 3%;
+}
+.registerlogo{
+  display: block;
+  margin: auto;
+}
+#dropdown-menu, .registerlogin{
+  position: relative;
+  top:1pc;
+  left:7.5pc;
+}
+.registersubmit{
+  position: relative;
+  left:12pc;
+  top:1.2pc;
+  color:#520720;
+  background-color: #faecf1;
+
+}
 /*LOGIN*/
+.loginregister{
+  position: relative;
+  left:8pc;
+}
+.loginsubmit{
+  position: relative;
+  left:12.5pc;
+  top: 0.5pc;
+  color:#520720;
+  background-color: #faecf1;
+}
+.rememberme{
+  position: relative;
+  left:6.5pc;
+  top:3pc;
+  color:#520720;
+  background-color: #faecf1;
+}
+.loginpage{
+  margin-top: 10pc;
+  width: 100pc;
+  height: 22pc;
+}
+.loginregisterlink{
+  text-decoration: none;
+  color: #f16d99;
+}
 

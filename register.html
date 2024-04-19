@@ -37,32 +37,38 @@
 
     </menu>
   </header>
-  <img src="images/6b96f5b8da14551116e6c5c8934baf8a-fotor-bg-remover-2024041594552.png"width="100px">
-  </header>
-  <h1 class="registerhead"> REGISTER</h1>
-  <text class="register-text">Become a Little Angel</text>
-  <fieldset>
-   <input placeholder="First Name" id="regsiterfirst-name" type="text" id="registerfirst-name" required>
-   <input placeholder="Last Name" ic="registerlast-name" type="text" id="registerlast-name" required>
-   <input placeholder="Email "id="register-email" type="text" id="email" required>
-   <input placeholder="Password" id=password type="password" pattern="[a,z0-5]{8,}">
-   <input placeholder="Confirm Password" id="password" type="password" pattern="[a,z0-5]{8,}">
-   <menu id="response" for="response">
-    <select name="response" id="response">
-    <li>
-        <option value="">How did you hear about us?</option>
-        <option value="1">INSTAGRAM</option>
-        <option value="2">TIKTOK</option>
-        <option value="3">WORD OF MOUTH</option>
-        <option value="4">SEARCH ENGINE</option>
-    </li>
-    </select>
-    <br>
-    <text class="member">Already a member? <a href="login.html">Login Here</a></text>
-    <br>
-   <button>submit</button>
-  </fieldset>
 
+  <img class="registerlogo" src="images/6b96f5b8da14551116e6c5c8934baf8a-fotor-bg-remover-2024041594552.png"width="200px">
+ 
+<div class="registerheader">
+ <h1> REGISTER </h1>
+ <h6> Sign up and become a Little Angel today!</h6>
+</div>
+<form>
+    <label for="first-name">First Name</label>
+    <input id="first-name" type="text" required>
+    <label for="last-name">Last Name</label>
+    <input id="last-name" type="text" required>
+    <label for="email">Email</label>
+    <input id="email" type="text" required>
+    <label for="Password">Password</label>
+    <input type="password" type="text" required>
+    <label for="confirm-password">Password Confirmation</label>
+    <input type="confirm-passord" type="text" pattern="[a-z0-5]{8,}">
+<div id="dropdown-menu" for="response">
+        <select name="response" id="response">
+            <option value="">How did you hear about us?</option>
+            <option value="1">TIKTOK</option>
+            <option value="2">INSTAGRAM</option>
+            <option value="3">SEARCH ENGINE</option>
+            <option value="4">FROM A FRIEND</option>
+            <option value="5">ADS</option>
+        </select>
+</div>
+<div class="registerlogin">Already a member?<a class="loginregisterlink" href="login.html"> Login here!</a></div>
+<button class="registersubmit">submit</button>
+</form>
+  
 
   </body>
   </html>
