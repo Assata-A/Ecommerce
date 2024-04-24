@@ -1,0 +1,193 @@
+body{
+  background-color: #fad4d921;
+}
+header{
+  background-color: rgba(248, 239, 246, 0.11);
+  border-bottom-style: solid;
+  border-bottom-width: 0.3ic;
+  border-bottom-color: rgba(255, 205, 233, 0.39);
+}
+.head{
+  text-decoration: none;
+  font-family:"Mongolian Baliti", Times, serif;
+  font-weight: bold;
+  color: rgb(86, 87, 87);
+  margin:0.3%;
+  margin-left: 1%;
+}
+#search{
+  border-radius: 1pc;
+  width:15pc;
+
+}
+.headtwo{
+  text-decoration: none;
+  font-family:"Mongolian Baliti", Times, serif;
+  font-weight: bold;
+  color: rgb(86, 87, 87);
+  float: right;
+  margin-left:2%;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-top: 36px;
+}
+#dropdown{
+  position: absolute;
+  right: 17px;
+  top: 55px;
+}
+#menu{
+  border-radius: 1pc;
+  font-family:"Mongolian Baliti", Times, serif; 
+  font-weight: bold;
+  color: #a08890;
+  border-width: 0.13pc;
+}
+#registerone{
+  padding-right: 2%;
+}
+.skullhead{
+ position: relative;
+}
+.skullhead img{
+  width: 100%;
+  height:auto;
+}
+.skullhead .btn{
+font-size: 45px;
+font-weight: bold;
+color: rgba(130, 91, 134, 0.651);
+position: absolute;
+top: 80%;
+left:-1px;
+background-color: rgba(255, 255, 255, 0.664);
+width: 100%;
+}
+h5{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+  color: #bb5c9794
+}
+h4, h3{
+  font-size: xx-large;
+  font-family: "Mongolian Baliti", Times, serif;
+  font-weight:bold;
+  color:#a08890;
+  margin-left: 6%;
+}
+.flex-container{
+ display: flex;
+ justify-content: center;
+}
+.featured{
+  margin: 1%;
+}
+.hide1 {
+  display: none;
+  width: 25%;
+  text-align: center;
+}
+.btn1:hover + .hide1 {
+  display:inline;
+  color: rgb(10, 9, 9);
+}
+.hide2{
+  display: none;
+  width: 25%;
+  text-align: center;
+}
+.btn2:hover + .hide2{
+  display:flex;
+  color: rgb(10, 10, 10);
+} 
+.btn1, .btn2{
+  margin-left: 210px;
+  margin-top: 1%;
+  background-color: #ebd2da;
+  border-width: 10px;
+  border-color: rgb(242, 244, 245);
+  border-radius: 1pc;
+}
+
+.hide1, .hide2{
+  border-color: rgb(253, 253, 253);
+  border-width: 1ic;
+  border-style: solid;
+  background-color: rgba(255, 228, 243, 0.808);
+  position: absolute;
+  top: 175%;
+  right: 45%;
+
+}
+.cartheader{
+    margin-left: 13%;
+    margin-top: 3%;
+    border-style: solid;
+    border-width:0.2px;
+    width: 40%;
+    margin-bottom: 1%;
+  }
+  .carttext{
+    color: #f16d99;
+  }
+  .cartregister{
+    color: #cebfc4;
+    text-decoration: none;
+  }
+  .carttitle, .cartprice, .cartdescription{
+    position: relative;
+    bottom:190px;
+    left: 205px;
+  }
+  .carttitle{
+    color: #f16d99;
+    font-weight: bold;
+  }
+  .cartprice{
+    color: #a08890;
+  }
+  .cartimage{
+    width:200px;
+  }
+  .cartcard{
+    width: 700px;
+    height: 202px;
+  }
+  .dropdowncart {
+    width: 10pc;
+    position: relative;
+    bottom: 65%; 
+    left: 30pc
+  }
+  .shipaddress{
+    position: relative;
+  }
+  .shiptitle{
+    font-family: "Mongolian Baliti", Times, serif;
+    font-weight: bold;
+    color: #f16d99;
+  }
+  .checkout0, .checkout1{
+    text-align: center;
+  }
+  .subtotal, .shipandhandle, .tax, .checkouttotal{
+    display: inline-flex;
+    margin-left: 14.5pc;
+    color: #f16d99;
+    font-weight: bold;
+  }
+  .cardcheckout{
+    width: 300px;
+    position: relative;
+    bottom: 25.5pc;
+  }
+  .shipment{
+    margin-bottom: 5%;
+  }
+  label{
+    display: block;
+    margin-top: 1%;
+    margin-left:1% ;
+    color:#5f293a;
+    font-weight: bold;
+  }
